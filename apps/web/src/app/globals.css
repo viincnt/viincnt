@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@theme {
+  --color-paper: #f4f1ea;
+  --color-ink: #141413;
+  --color-clay: #d97757;
+  --color-clay-deep: #b4532f;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-newsreader);
+}
+
+/* Dark mode — swap paper/ink, keep clay */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-paper: #1c1a18;
+    --color-ink: #e8e4db;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-paper: #1c1a18;
+  --color-ink: #e8e4db;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --color-paper: #f4f1ea;
+  --color-ink: #141413;
+  color-scheme: light;
+}
+
+/* View transitions */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root) {
+  animation: 180ms ease-out both fade-out;
+}
+
+::view-transition-new(root) {
+  animation: 220ms ease-in both fade-in;
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}

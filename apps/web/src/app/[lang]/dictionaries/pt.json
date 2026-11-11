@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "viincnt — Product Engineer",
+    "description": "Engenheiro de produto criando software para web, sistemas de baixo nível e computação gráfica em tempo real."
+  },
+  "a11y": {
+    "skip": "Pular para os projetos",
+    "language": "Escolher idioma",
+    "newTab": "abre em uma nova aba",
+    "home": "viincnt — Início"
+  },
+  "header": {
+    "contact": "Contato"
+  },
+  "hero": {
+    "name": "Vicente",
+    "role": "Product Engineer",
+    "lede": "Projeto e desenvolvo software para web, sistemas de baixo nível e computação gráfica em tempo real.",
+    "status": "Disponível para novos projetos"
+  },
+  "elsewhere": {
+    "label": "Perfis"
+  },
+  "work": {
+    "label": "Trabalhos selecionados",
+    "intro": "Projetos recentes e em andamento.",
+    "items": {
+      "rustynail": {
+        "description": "Kernel e userland para aarch64, escritos do zero em Rust.",
+        "category": "Sistemas",
+        "status": "Em desenvolvimento"
+      },
+      "singularity": {
+        "description": "Reconstrução temporal experimental para o renderizador Vulkan do Minecraft, usando DLSS e MetalFX.",
+        "category": "Gráficos",
+        "status": "Em desenvolvimento"
+      },
+      "deepslate": {
+        "description": "Site da Deepslate Studios, equipe que desenvolve plugins para servidores de Minecraft.",
+        "category": "Web",
+        "status": "No ar"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contato",
+    "titleStart": "Vamos trabalhar",
+    "titleEnd": "juntos.",
+    "body": "Para projetos, parcerias ou outros assuntos, o melhor canal é o email.",
+    "cta": "Enviar email"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  },
+  "notFound": {
+    "label": "Erro 404",
+    "title": "Página não encontrada.",
+    "body": "O endereço pode estar incorreto, ou a página não existe mais.",
+    "back": "Voltar ao início"
+  }
+}

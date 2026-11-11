@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "viincnt — Product Engineer",
+    "description": "Ingénieur produit qui conçoit des logiciels pour le web, les systèmes bas niveau et le rendu graphique en temps réel."
+  },
+  "a11y": {
+    "skip": "Aller aux projets",
+    "language": "Choisir la langue",
+    "newTab": "s’ouvre dans un nouvel onglet",
+    "home": "viincnt — Accueil"
+  },
+  "header": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Vincent",
+    "role": "Product Engineer",
+    "lede": "Je conçois et développe des logiciels pour le web, les systèmes bas niveau et le rendu graphique en temps réel.",
+    "status": "Disponible pour de nouveaux projets"
+  },
+  "elsewhere": {
+    "label": "Profils"
+  },
+  "work": {
+    "label": "Sélection de travaux",
+    "intro": "Projets récents et en cours.",
+    "items": {
+      "rustynail": {
+        "description": "Noyau et userland pour aarch64, écrits de zéro en Rust.",
+        "category": "Systèmes",
+        "status": "En développement"
+      },
+      "singularity": {
+        "description": "Reconstruction temporelle expérimentale pour le moteur de rendu Vulkan de Minecraft, avec DLSS et MetalFX.",
+        "category": "Graphisme",
+        "status": "En développement"
+      },
+      "deepslate": {
+        "description": "Site de Deepslate Studios, une équipe qui développe des plugins pour serveurs Minecraft.",
+        "category": "Web",
+        "status": "En ligne"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "titleStart": "Travaillons",
+    "titleEnd": "ensemble.",
+    "body": "Pour un projet, une collaboration ou toute autre demande, écrivez-moi par e-mail.",
+    "cta": "Envoyer un e-mail"
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  },
+  "notFound": {
+    "label": "Erreur 404",
+    "title": "Page introuvable.",
+    "body": "L’adresse est peut-être erronée, ou la page n’existe plus.",
+    "back": "Retour à l’accueil"
+  }
+}

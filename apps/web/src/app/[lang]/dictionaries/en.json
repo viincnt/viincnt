@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "viincnt — Product Engineer",
+    "description": "Product engineer building software for the web, low-level systems and real-time graphics."
+  },
+  "a11y": {
+    "skip": "Skip to projects",
+    "language": "Choose language",
+    "newTab": "opens in a new tab",
+    "home": "viincnt — Home"
+  },
+  "header": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Vincent",
+    "role": "Product Engineer",
+    "lede": "I design and build software for the web, low-level systems and real-time graphics.",
+    "status": "Available for new projects"
+  },
+  "elsewhere": {
+    "label": "Profiles"
+  },
+  "work": {
+    "label": "Selected work",
+    "intro": "Recent and ongoing projects.",
+    "items": {
+      "rustynail": {
+        "description": "Kernel and userland for aarch64, written from scratch in Rust.",
+        "category": "Systems",
+        "status": "In development"
+      },
+      "singularity": {
+        "description": "Experimental temporal reconstruction for Minecraft’s Vulkan renderer, using DLSS and MetalFX.",
+        "category": "Graphics",
+        "status": "In development"
+      },
+      "deepslate": {
+        "description": "Website for Deepslate Studios, a team that builds Minecraft server plugins.",
+        "category": "Web",
+        "status": "Live"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "titleStart": "Let’s work",
+    "titleEnd": "together.",
+    "body": "For projects, collaborations or general enquiries, email is the best way to reach me.",
+    "cta": "Send an email"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "label": "Error 404",
+    "title": "Page not found.",
+    "body": "The address may be mistyped, or the page no longer exists.",
+    "back": "Back to home"
+  }
+}
